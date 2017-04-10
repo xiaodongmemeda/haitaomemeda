@@ -7,12 +7,11 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.nostra13.universalimageloader.core.ImageLoader;
+import org.xutils.x;
 
 import java.util.List;
 
 import test.bwie.com.qiuhaitao_20170410.R;
-import test.bwie.com.qiuhaitao_20170410.Utils.ImageUtils;
 import test.bwie.com.qiuhaitao_20170410.bean.Bean;
 
 /**
@@ -57,7 +56,8 @@ public class FragListada extends BaseAdapter{
         }else {
             holder = (Holder) view.getTag();
         }
-        ImageLoader.getInstance().displayImage(list.get(i).getPicUrl(),holder.imageView, ImageUtils.setImage(R.mipmap.ic_launcher));
+       // ImageLoader.getInstance().displayImage(list.get(i).getPicUrl(),holder.imageView, ImageUtils.setImage(R.mipmap.ic_launcher));
+        x.image().bind(holder.imageView,list.get(i).getPicUrl());
         holder.textView1.setText(list.get(i).getTitle());
         holder.textView2.setText(list.get(i).getDescription());
         return view;
