@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="test.bwie.com.q0415_am.activity.MainActivity">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="39dp"
+                    android:id="@+id/rela_title"
+                    android:background="@color/colorBlack"
+    >
+
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/category"
+                   android:layout_centerVertical="true"
+                   android:src="@mipmap/btn_category_pressed"
+        />
+        <TextView
+                  android:layout_centerInParent="true"
+                  style="@style/textview_style"
+                  android:text="全部药品"
+                  android:id="@+id/main_text"
+                  android:textColor="@color/colorWrite"
+        />
+
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/rela_f"
+                    android:layout_below="@id/rela_title"
+    ></RelativeLayout>
+
+</RelativeLayout>

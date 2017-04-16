@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\xiangmuone\Q0415_am\library\assets"/><source path="D:\xiangmuone\Q0415_am\library\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="D:\xiangmuone\Q0415_am\library\src\release\assets"/></dataSet></merger>
