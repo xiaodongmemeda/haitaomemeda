@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="读文章"
+        android:textColor="#FFFFFF"
+        android:padding="8dp"
+        android:drawableLeft="@mipmap/listpage_more_dislike_pressed"
+        android:background="#3E3E3E"
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="收藏"
+        android:textColor="#FFFFFF"
+        android:padding="8dp"
+        android:background="#3E3E3E"
+        />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="不感兴趣"
+        android:textColor="#FFFFFF"
+        android:padding="8dp"
+        android:background="#3E3E3E"
+        android:id="@+id/pp_no"
+        android:drawableEnd="@mipmap/listpage_more_like_normal"
+        />
+
+
+</LinearLayout>

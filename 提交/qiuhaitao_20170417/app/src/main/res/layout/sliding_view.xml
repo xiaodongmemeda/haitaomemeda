@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+                android:background="@color/colorAccent1"
+>
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="33dp"
+              android:text="qq"
+              android:gravity="center"
+              android:layout_below="@+id/img_qq"
+              android:id="@+id/text_qq"
+    />
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分享到空间"
+            android:id="@+id/QZone"
+            android:layout_marginStart="60dp" android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/img_qq"/>
+    <de.hdodenhof.circleimageview.CircleImageView android:layout_width="66dp"
+                                                  android:layout_height="66dp"
+                                                  android:src="@mipmap/ic_launcher"
+                                                  android:id="@+id/img_qq"
+                                                  android:layout_alignParentTop="true"
+                                                  android:layout_alignParentStart="true"/>
+</RelativeLayout>
